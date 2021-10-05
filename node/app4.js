@@ -7,7 +7,7 @@ http.createServer(function (req, res) {
         res.writeHead(200, {"Content-Type": "text/plain"});
         readableStream.pipe(res);
     }
-}).listen (5000, "localhost")
+}).listen (3000, "localhost")
 
 
-console.log("listening to http://localhost:5000")
+console.log("listening to http://localhost:3000")
